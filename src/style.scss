@@ -1,0 +1,54 @@
+$bg_main:black;
+$btnBg: black;
+$btnColor: cyan;
+$mainWidth: 50%;
+$btn_menu_bg: #FFFFFF;
+$btn_menu_bg_hover: #a8c0c9;
+$btn_menu_color: blue;
+
+body{
+    background-color: $bg_main;
+}
+
+.commonDisplay{
+    padding: 5px;
+    margin: 3px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 50px;
+    box-shadow: 3px 1px gray;
+}
+
+.innerContainer{
+    background-color:#509ad8;
+}
+
+.articleDisplay{
+    background-color:#cdc3a6;
+    padding: 10px;
+    margin:20px;
+    border-radius:20px;
+}
+
+.tableData{
+    padding: 10px;
+    margin: 5px;
+    width: 100%;
+}
+
+.panelWidth{
+    width:100%;
+}
+
+.menuButton{
+    background-color:black;
+    color:cyan;
+    padding:10px;
+    font-weight: bold;
+    border-radius:10px;
+    box-shadow: 2px 2px rgb(47, 48, 68);
+}
+
+.menuButton:hover{
+    background-color:$btn_menu_bg_hover;
+}
